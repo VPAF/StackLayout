@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:StackLayout"
+             x:Class="StackLayout.MainPage">
+
+    <!--<StackLayout BackgroundColor="#127ac7" HorizontalOptions="Fill" VerticalOptions="Center">
+        <Label FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" TextColor="White">
+            Welcome to Xamarin
+        </Label>
+        <Label FontSize="18" TextColor="White" HorizontalOptions="Center">
+            Cross-platform apps made easy!
+        </Label>
+        <Button BackgroundColor="#1dabf0" TextColor="White" Text="Login">
+        </Button>
+        <Button BackgroundColor="#1dabf0" TextColor="White" Text="Register">
+        </Button>
+    </StackLayout>-->
+    <StackLayout HorizontalOptions="Fill" Orientation="Horizontal">
+        <Image Source="http://lorempixel.com/1920/1080/nature/3/"></Image>
+        <Button BackgroundColor="#ffffff" TextColor="Blue" Text="Like"/>
+        <Button BackgroundColor="#ffffff" TextColor="Blue" Text="Comment"/>
+        <Button BackgroundColor="#ffffff" TextColor="Blue" Text="Share"/>
+        <BoxView Color="#f0f0f0" HeightRequest="1"/>
+        <Label Text="This is a shot from... blah blah blah..."/>
+
+
+
+
+    </StackLayout>
+    
+    
+
+</ContentPage>
